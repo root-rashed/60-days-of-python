@@ -9,14 +9,12 @@ print(type(z))
 
 print(isinstance(z,complex))
 
-
 # Type casting
 n= float(x)
 print(type(n))
 # Integer to complex
 n= complex(n)
 print(n)
-
 
 x = True
 print(x)
