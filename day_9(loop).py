@@ -22,5 +22,4 @@ x = int(input("Enter a number: "))
 fact= x
 for i in range(x,2,-1):
     fact = fact*(i - 1)
-
 print('Factorial of {} is: {} '.format(x,fact))
