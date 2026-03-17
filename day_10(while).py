@@ -1,6 +1,6 @@
-
 i=0
 while (i<10):
-    print(i)
+    print(i,"python")
     i=i+1
+
 
