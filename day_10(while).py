@@ -18,4 +18,3 @@ while index<len(nums):
     sum+=nums[index]
     print(index,nums[index],sum)
     index+=1
-
