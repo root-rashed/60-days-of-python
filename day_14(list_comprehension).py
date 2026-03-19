@@ -12,6 +12,7 @@ matrix = [[j for j in range(5)] for i in range(3)]
 print(matrix)
 
 
+
 words = ['python','list','ai','data','science']
 lengths = [len(word) for word in words]
 print(lengths)
