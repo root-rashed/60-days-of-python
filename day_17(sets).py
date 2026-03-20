@@ -6,3 +6,17 @@ print(type(set))
 
 set1 ={}
 print(type(set1))
+
+
+# set3 = set()
+# print(type(set3))
+
+
+# Set in unordered
+set.add(100)
+print(set)
+
+
+# Unique value
+set.update([1000,1000,1000])
+print(set)
