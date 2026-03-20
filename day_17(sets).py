@@ -14,6 +14,7 @@ print(type(set1))
 
 
 
+
 # Set in unordered
 set.add(100)
 print(set)
@@ -26,5 +27,23 @@ print(set)
 
 
 
+
 set.remove(1000)
+print(set)
+
+
+
+
+set.discard(10)
+print(set)
+
+
+
+print(2 in set)
+print(10 in set)
+
+
+# Remove from first
+set.pop()
+set.pop()
 print(set)
