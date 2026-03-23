@@ -28,3 +28,15 @@ print(len(ar2))
 
 ar2.reverse()
 print(ar2)
+
+
+
+print(ar1.count(1))
+print(ar1.index(1))
+
+
+ar1.pop()
+print(ar1)
+
+ar1.remove(4)
+print(ar1)
