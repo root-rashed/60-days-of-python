@@ -1,5 +1,5 @@
 name =['rashed','sabit','prio']
-varsity = ['seu','eub','ist']
+varsity = ['seu','eub','isd']
 zipped = dict(zip(name,varsity))
 
 
@@ -8,3 +8,8 @@ print(type(zipped))
 
 print(zipped.keys)
 print(zipped.values())
+
+
+name1,varsity1 = zip(*zipped)
+print(name1)
+print(varsity1)
