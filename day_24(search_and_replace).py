@@ -8,3 +8,5 @@ with open(r'text.txt','+r') as file:
 
 with open(r'text.txt','+w') as file:
     file.write(data)
+
+    
