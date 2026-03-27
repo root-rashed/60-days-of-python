@@ -7,3 +7,21 @@ def user_input():
 
 r1,_ = user_input()
 print(r1)
+
+
+
+# One function call in another
+def mul():
+    x= int(input("Enter x: "))
+    y= int(input("Enter y: "))
+    result = x*y
+    return result
+
+def mul1():
+    res = mul()
+    z= int(input("Enter z: "))
+    final = res*z
+    return final
+
+fn = mul1()
+print("Final result is: {}".format(fn))
